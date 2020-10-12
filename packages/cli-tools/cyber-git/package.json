@@ -36,5 +36,5 @@
     "simple-git": "^2.20.1"
   },
   "bin": "index.js",
-  "gitHead": "27944a7cb0e36c94b59e99799d10e581ea88d23d"
+  "gitHead": "aad24b395b43be63161fe5e2cc03aa4292dc1db8"
 }

@@ -32,5 +32,6 @@
     "open": "^7.3.0",
     "validate-npm-package-name": "^3.0.0"
   },
-  "bin": "index.js"
+  "bin": "index.js",
+  "gitHead": "aad24b395b43be63161fe5e2cc03aa4292dc1db8"
 }

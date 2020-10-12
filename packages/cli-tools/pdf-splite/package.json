@@ -31,5 +31,6 @@
     "pdf-lib": "^1.11.1",
     "progress": "^2.0.3"
   },
-  "bin": "index.js"
+  "bin": "index.js",
+  "gitHead": "aad24b395b43be63161fe5e2cc03aa4292dc1db8"
 }

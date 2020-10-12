@@ -7,7 +7,7 @@
       "noBootstrap": true
     },
     "version": {
-      "no-git-tag-version": true
+      "noGitTagVersion": true
     },
     "bootstrap": {
       "hoist": true,

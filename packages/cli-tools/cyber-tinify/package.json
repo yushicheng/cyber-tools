@@ -37,5 +37,6 @@
   },
   "bin": {
     "cyber-tinify": "./index.js"
-  }
+  },
+  "gitHead": "aad24b395b43be63161fe5e2cc03aa4292dc1db8"
 }
