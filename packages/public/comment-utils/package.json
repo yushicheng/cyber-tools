@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/comment-utils",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,5 +17,5 @@
     "moment": "^2.29.1",
     "simple-git": "^2.21.0"
   },
-  "gitHead": "aad24b395b43be63161fe5e2cc03aa4292dc1db8"
+  "gitHead": "c02bd739ce8927f1749191f23cc9fdb624a8b26c"
 }

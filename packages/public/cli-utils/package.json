@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/cli-utils",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,5 @@
     "moment": "^2.29.1",
     "ora": "^5.1.0"
   },
-  "gitHead": "aad24b395b43be63161fe5e2cc03aa4292dc1db8"
+  "gitHead": "c02bd739ce8927f1749191f23cc9fdb624a8b26c"
 }

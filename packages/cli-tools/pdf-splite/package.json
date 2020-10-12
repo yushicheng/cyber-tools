@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/pdf-splite",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "切分多页pdf文件的工具",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@cyber-tools/cli-utils": "^2.2.2",
+    "@cyber-tools/cli-utils": "^2.2.3",
     "cli-spinners": "^2.4.0",
     "commander": "^6.0.0",
     "es6-promisify": "^6.1.1",
@@ -32,5 +32,5 @@
     "progress": "^2.0.3"
   },
   "bin": "index.js",
-  "gitHead": "aad24b395b43be63161fe5e2cc03aa4292dc1db8"
+  "gitHead": "c02bd739ce8927f1749191f23cc9fdb624a8b26c"
 }

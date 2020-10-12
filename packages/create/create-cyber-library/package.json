@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/create-cyber-library",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "用于创建cyber库文件的命令行工具",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@cyber-tools/cli-utils": "^2.2.2",
+    "@cyber-tools/cli-utils": "^2.2.3",
     "colors": "^1.4.0",
     "download-git-repo": "^3.0.2",
     "es6-promisify": "^6.1.1",
@@ -32,5 +32,5 @@
   "bin": {
     "create-cyber-library": "index.js"
   },
-  "gitHead": "aad24b395b43be63161fe5e2cc03aa4292dc1db8"
+  "gitHead": "c02bd739ce8927f1749191f23cc9fdb624a8b26c"
 }

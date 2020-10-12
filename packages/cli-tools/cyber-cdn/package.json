@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/cyber-cdn",
-  "version": "3.3.2",
+  "version": "3.3.3",
   "description": "基于腾讯云openAPI开发的图片云端管理工具",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@cyber-tools/cli-utils": "^2.2.2",
+    "@cyber-tools/cli-utils": "^2.2.3",
     "colors": "^1.4.0",
     "commander": "^6.0.0",
     "cos-nodejs-sdk-v5": "^2.6.2",
@@ -42,5 +42,5 @@
     "uuid": "^8.3.0"
   },
   "bin": "./index.js",
-  "gitHead": "aad24b395b43be63161fe5e2cc03aa4292dc1db8"
+  "gitHead": "c02bd739ce8927f1749191f23cc9fdb624a8b26c"
 }

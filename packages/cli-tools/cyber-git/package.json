@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/cyber-git",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "生成标准化git提交注释的cli工具",
   "main": "index.js",
   "scripts": {
@@ -18,10 +18,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@cyber-tools/cli-utils": "^2.2.2",
-    "@cyber-tools/comment-utils": "^2.0.3",
-    "@cyber-tools/git-assess-utils": "^2.2.2",
-    "@cyber-tools/preset-git-comment-cyber": "^2.2.2",
+    "@cyber-tools/cli-utils": "^2.2.3",
+    "@cyber-tools/comment-utils": "^2.0.4",
+    "@cyber-tools/git-assess-utils": "^2.2.3",
+    "@cyber-tools/preset-git-comment-cyber": "^2.2.3",
     "commander": "^6.0.0",
     "es6-promisify": "^6.1.1",
     "execa": "^4.0.3",
@@ -36,5 +36,5 @@
     "simple-git": "^2.20.1"
   },
   "bin": "index.js",
-  "gitHead": "aad24b395b43be63161fe5e2cc03aa4292dc1db8"
+  "gitHead": "c02bd739ce8927f1749191f23cc9fdb624a8b26c"
 }

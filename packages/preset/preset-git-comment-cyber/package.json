@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/preset-git-comment-cyber",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,8 +13,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@cyber-tools/comment-utils": "^2.0.3",
+    "@cyber-tools/comment-utils": "^2.0.4",
     "moment": "^2.29.1"
   },
-  "gitHead": "aad24b395b43be63161fe5e2cc03aa4292dc1db8"
+  "gitHead": "c02bd739ce8927f1749191f23cc9fdb624a8b26c"
 }

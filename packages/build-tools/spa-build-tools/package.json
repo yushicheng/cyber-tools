@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/spa-build-tools",
-  "version": "7.2.2",
+  "version": "7.2.3",
   "description": "单页应用核心构建组件",
   "main": "index.js",
   "scripts": {
@@ -19,8 +19,8 @@
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.11.6",
-    "@cyber-tools/cli-utils": "^2.2.2",
-    "@cyber-tools/preset-babel-option": "^2.2.2",
+    "@cyber-tools/cli-utils": "^2.2.3",
+    "@cyber-tools/preset-babel-option": "^2.2.3",
     "babel-loader": "^8.1.0",
     "cli-spinners": "^2.4.0",
     "commander": "^5.1.0",
@@ -61,5 +61,5 @@
   "bin": {
     "cyber-spa": "./index.js"
   },
-  "gitHead": "aad24b395b43be63161fe5e2cc03aa4292dc1db8"
+  "gitHead": "c02bd739ce8927f1749191f23cc9fdb624a8b26c"
 }

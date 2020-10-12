@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/tinify",
-  "version": "4.2.2",
+  "version": "4.2.3",
   "description": "基于tinipng的openAPI开发的图片批处理压缩脚本",
   "main": "index.js",
   "scripts": {
@@ -38,5 +38,5 @@
   "bin": {
     "cyber-tinify": "./index.js"
   },
-  "gitHead": "aad24b395b43be63161fe5e2cc03aa4292dc1db8"
+  "gitHead": "c02bd739ce8927f1749191f23cc9fdb624a8b26c"
 }
