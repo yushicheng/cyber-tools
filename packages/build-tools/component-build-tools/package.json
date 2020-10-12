@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/component-build-tools",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "基于gulp,babel,typescript开发的组件库构筑工具",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.11.1",
-    "@cyber-tools/cli-utils": "^2.2.0",
+    "@cyber-tools/cli-utils": "^2.2.1",
     "babel-plugin-css-modules-transform": "^1.6.2",
     "babel-plugin-file-loader": "^2.0.0",
     "cli-spinners": "^2.4.0",

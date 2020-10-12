@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/preset-babel-option",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "cyber系列通用的babel配置",
   "main": "index.js",
   "scripts": {
