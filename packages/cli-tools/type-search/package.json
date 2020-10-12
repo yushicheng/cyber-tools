@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/type-search",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "用于在DefinitelyTyped上搜索类型的命令行工具",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@cyber-tools/cli-utils": "^2.2.1",
+    "@cyber-tools/cli-utils": "^2.2.2",
     "commander": "^6.0.0",
     "es6-promisify": "^6.1.1",
     "execa": "^4.0.3",
