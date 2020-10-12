@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/create-cyber-project",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,7 +19,7 @@
   "license": "ISC",
   "description": "用于创建cyber系列项目的命令行工具",
   "dependencies": {
-    "@cyber-tools/cli-utils": "^2.2.6",
+    "@cyber-tools/cli-utils": "^2.2.8",
     "colors": "^1.4.0",
     "download-git-repo": "^3.0.2",
     "es6-promisify": "^6.1.1",
