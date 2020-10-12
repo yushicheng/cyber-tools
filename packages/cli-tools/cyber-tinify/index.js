@@ -4,6 +4,7 @@ require("@cyber-tools/cli-utils/initial");
 require("module-alias").addAlias("@", __dirname);
 const json = require("@/package.json");
 
+
 program
   .usage("cyber-tinify command")
   .version(json.version);

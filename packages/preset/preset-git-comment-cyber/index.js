@@ -1,5 +1,6 @@
 const createNormalMessage = require("@cyber-tools/comment-utils/createNormalMessage");
 
+
 module.exports = {
   "临时提交": async () => await createNormalMessage({
     type: "temp",

@@ -6,6 +6,7 @@ const json = require("@/package.json");
 
 const clearDNS = require("@/scripts/clearDNS");
 
+
 program
   .usage("dns-server <cmd>")
   .version(json.version);

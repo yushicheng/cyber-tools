@@ -8,6 +8,7 @@ const isInit = require("@cyber-tools/git-assess-utils/isInit");
 const confirmInitial = require("@/scripts/confirm/confirmInitial");
 const firstCommit = require("@/scripts/first-commit");
 
+
 (async () => {
   if (!await isInit()) {
     if (!await confirmInitial()) {

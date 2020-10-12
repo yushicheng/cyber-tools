@@ -4,7 +4,6 @@ require("module-alias").addAlias("@", __dirname);
 const createLibrary = require("@/scripts/create-library");
 const selectTemplate = require("@/utils/selectTemplate");
 
-
 (async () => {
   try {
     const { remote, devDependencies } = await selectTemplate();

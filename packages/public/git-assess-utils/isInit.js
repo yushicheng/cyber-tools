@@ -1,5 +1,6 @@
 const pathExists = require("path-exists");
 
+
 module.exports = async () => {
   try {
     const result = await pathExists("./.git");

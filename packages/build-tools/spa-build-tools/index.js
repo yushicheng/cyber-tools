@@ -4,7 +4,6 @@ require("@cyber-tools/cli-utils/initial");
 require("module-alias").addAlias("@", __dirname);
 const json = require("@/package.json");
 
-
 program
   .name(json.name)
   .usage("build-spa command")
