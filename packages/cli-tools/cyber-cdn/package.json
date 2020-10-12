@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/cyber-cdn",
-  "version": "3.3.6",
+  "version": "3.3.7",
   "description": "基于腾讯云openAPI开发的图片云端管理工具",
   "main": "index.js",
   "scripts": {

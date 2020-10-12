@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/preset-git-comment-cyber",
-  "version": "2.2.6",
+  "version": "2.2.7",
   "description": "",
   "main": "index.js",
   "scripts": {
