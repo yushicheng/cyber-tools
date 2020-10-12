@@ -1,0 +1,34 @@
+{
+  "name": "@cyber-tools/create-cyber-server",
+  "version": "1.2.0",
+  "description": "用于创建cyber系列微服务的命令行工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "cyber",
+    "server",
+    "create",
+    "shicheng.yu"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cyber-tools/cli-utils": "^2.2.0",
+    "colors": "^1.4.0",
+    "download-git-repo": "^3.0.2",
+    "es6-promisify": "^6.1.1",
+    "inquirer": "^7.3.3",
+    "jsonfile": "^6.0.1",
+    "module-alias": "^2.2.2",
+    "prompt": "^1.0.0"
+  },
+  "bin": {
+    "create-cyber-server": "index.js"
+  }
+}

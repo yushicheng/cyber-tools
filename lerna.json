@@ -1,0 +1,25 @@
+{
+  "npmClientArgs": [
+    "--no-package-lock"
+  ],
+  "command": {
+    "add": {
+      "noBootstrap": true
+    },
+    "bootstrap": {
+      "hoist": true,
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
+    }
+  },
+  "packages": [
+    "packages/build-tools/*",
+    "packages/cli-tools/*",
+    "packages/create/*",
+    "packages/preset/*",
+    "packages/public/*",
+    "packages/server/*"
+  ],
+  "version": "independent"
+}

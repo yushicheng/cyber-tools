@@ -1,0 +1,35 @@
+{
+  "name": "@cyber-tools/cyber-npm",
+  "version": "2.2.0",
+  "description": "用于创建cyber系列工具的命令行工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "node",
+    "cyber",
+    "shicheng.yu"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cyber-tools/cli-utils": "^2.2.0",
+    "@cyber-tools/git-assess-utils": "^2.2.0",
+    "commander": "^6.0.0",
+    "es6-promisify": "^6.1.1",
+    "execa": "^4.0.3",
+    "inquirer": "^7.3.3",
+    "jsonfile": "^6.0.1",
+    "module-alias": "^2.2.2",
+    "moment": "^2.29.1",
+    "npm-name": "^6.0.1",
+    "open": "^7.3.0",
+    "validate-npm-package-name": "^3.0.0"
+  },
+  "bin": "index.js"
+}

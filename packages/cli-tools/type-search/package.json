@@ -1,0 +1,33 @@
+{
+  "name": "@cyber-tools/type-search",
+  "version": "2.2.0",
+  "description": "用于在DefinitelyTyped上搜索类型的命令行工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "node",
+    "cyber",
+    "search",
+    "typescript",
+    "shicheng.yu"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cyber-tools/cli-utils": "^2.2.0",
+    "commander": "^6.0.0",
+    "es6-promisify": "^6.1.1",
+    "execa": "^4.0.3",
+    "inquirer": "^7.3.3",
+    "jsonfile": "^6.0.1",
+    "module-alias": "^2.2.2",
+    "moment": "^2.29.1",
+    "open": "^7.1.0"
+  },
+  "bin": {
+    "cyber-type": "index.js"
+  }
+}

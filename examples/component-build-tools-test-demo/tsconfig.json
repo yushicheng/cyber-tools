@@ -1,0 +1,27 @@
+{
+  "exclude": [
+    "dist",
+    "scripts",
+    "example",
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": [
+      "ES2015"
+    ],
+    "rootDir": "src",
+    "strict": true,
+    "jsx": "react",
+    "target": "es5",
+    "declaration": true,
+    "declarationDir": "dist",
+    "skipLibCheck": true,
+    "importHelpers": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "@cyber-library/component-build-tools-test-demo",
+  "version": "1.0.0",
+  "description": "基于typescript编写的组件库",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "node ./scripts/development.js",
+    "build": "cyber-component build"
+  },
+  "keywords": [
+    "ui",
+    "react",
+    "typescript",
+    "framework",
+    "component",
+    "components"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.9.46",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@cyber-tools/component-build-tools": "file:../../packages/build-tools/component-build-tools",
+    "@cyber-tools/spa-build-tools": "file:../../packages/build-tools/spa-build-tools",
+    "concurrently": "^5.3.0",
+    "typescript": "^3.9.7"
+  }
+}

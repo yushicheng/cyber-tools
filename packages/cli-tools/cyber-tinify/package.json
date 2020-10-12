@@ -1,0 +1,41 @@
+{
+  "name": "@cyber-tools/tinify",
+  "version": "4.2.0",
+  "description": "基于tinipng的openAPI开发的图片批处理压缩脚本",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "cyber",
+    "tinify",
+    "shicheng.yu"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^6.0.0",
+    "dot-prop": "^5.2.0",
+    "es6-promisify": "^6.1.1",
+    "execa": "^4.0.3",
+    "glob": "^7.1.6",
+    "inquirer": "^7.3.3",
+    "jsonfile": "^6.0.1",
+    "md5": "^2.2.1",
+    "module-alias": "^2.2.2",
+    "moment": "^2.29.1",
+    "open": "^7.1.0",
+    "path-exists": "^4.0.0",
+    "progress": "^2.0.3",
+    "prompt": "^1.0.0",
+    "tinify": "^1.6.0-beta.2"
+  },
+  "bin": {
+    "cyber-tinify": "./index.js"
+  }
+}

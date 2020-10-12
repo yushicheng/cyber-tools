@@ -1,0 +1,40 @@
+{
+  "name": "@cyber-tools/cyber-git",
+  "version": "2.2.0",
+  "description": "生成标准化git提交注释的cli工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "node",
+    "cyber",
+    "shicheng.yu"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cyber-tools/cli-utils": "^2.2.0",
+    "@cyber-tools/comment-utils": "^2.0.1",
+    "@cyber-tools/git-assess-utils": "^2.2.0",
+    "@cyber-tools/preset-git-comment-cyber": "^2.2.0",
+    "commander": "^6.0.0",
+    "es6-promisify": "^6.1.1",
+    "execa": "^4.0.3",
+    "inquirer": "^7.3.3",
+    "jsonfile": "^6.0.1",
+    "lodash": "^4.17.20",
+    "module-alias": "^2.2.2",
+    "moment": "^2.29.1",
+    "open": "^7.3.0",
+    "path-exists": "^4.0.0",
+    "prompt-promise": "^1.0.3",
+    "simple-git": "^2.20.1"
+  },
+  "bin": "index.js",
+  "gitHead": "27944a7cb0e36c94b59e99799d10e581ea88d23d"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "build-tools-test-demo",
+  "version": "1.0.0",
+  "description": "基于dva.js的react单页应用",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cyber-spa dev",
+    "build": "cyber-spa build"
+  },
+  "keywords": [
+    "spa",
+    "react",
+    "project",
+    "shicheng.yu"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^4.6.4",
+    "antd-mobile": "^2.3.3",
+    "axios": "^0.19.2",
+    "dot-prop": "^5.2.0",
+    "dva": "^2.6.0-beta.20",
+    "history": "^5.0.0",
+    "loadsh": "0.0.4",
+    "moment": "^2.26.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "@cyber-tools/spa-build-tools": "file:../../packages/build-tools/spa-build-tools",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.4.0",
+    "eslint-plugin-react": "^7.20.5",
+    "history-server": "^1.3.1",
+    "http-server": "^0.12.3",
+    "moment-locales-webpack-plugin": "^1.1.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "root",
+  "scripts": {
+    "auto:install": "lerna exec --ignore \"@cyber-tools/{preset-*,*-utils,*-build-tools}\" -- echo \\$LERNA_PACKAGE_NAME",
+    "clear:lock": "lerna exec -- rm -rf package-lock.json"
+  },
+  "scripts-examples": {
+    "复杂的过滤条件": "lerna exec --ignore \"@cyber-tools/{preset-*,*-utils,*-build-tools}\" -- echo \\$LERNA_PACKAGE_NAME",
+    "带作用域的示例": "lerna exec --scope \"@cyber-tools/create-cyber-*\" -- rm -rf test.js"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
