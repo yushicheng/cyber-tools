@@ -6,6 +6,10 @@
     "add": {
       "noBootstrap": true
     },
+    "version": {
+      "yes": true,
+      "patch": true
+    },
     "bootstrap": {
       "hoist": true,
       "npmClientArgs": [
