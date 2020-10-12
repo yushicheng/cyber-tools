@@ -23,6 +23,7 @@
     "commander": "^6.0.0",
     "es6-promisify": "^6.1.1",
     "execa": "^4.0.3",
+    "git-url-parse": "^11.3.0",
     "inquirer": "^7.3.3",
     "jsonfile": "^6.0.1",
     "module-alias": "^2.2.2",
