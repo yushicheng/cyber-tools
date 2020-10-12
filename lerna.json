@@ -6,6 +6,9 @@
     "add": {
       "noBootstrap": true
     },
+    "version": {
+      "no-git-tag-version": true
+    },
     "bootstrap": {
       "hoist": true,
       "npmClientArgs": [
