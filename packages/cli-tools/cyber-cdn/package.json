@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/cyber-cdn",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "基于腾讯云openAPI开发的图片云端管理工具",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@cyber-tools/cli-utils": "^2.3.0",
+    "@cyber-tools/cli-utils": "^2.4.0",
     "colors": "^1.4.0",
     "commander": "^6.0.0",
     "cos-nodejs-sdk-v5": "^2.6.2",

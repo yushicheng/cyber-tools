@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/create-cyber-tools",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "用于创建cyber系列工具的命令行工具",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@cyber-tools/cli-utils": "^2.3.0",
+    "@cyber-tools/cli-utils": "^2.4.0",
     "colors": "^1.4.0",
     "download-git-repo": "^3.0.2",
     "es6-promisify": "^6.1.1",
