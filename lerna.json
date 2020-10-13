@@ -17,7 +17,7 @@
     },
     "publish": {
       "ignoreChanges": [
-        "*/.bin/**"
+        "**/.bin/**"
       ],
       "registry": "https://registry.npmjs.org/"
     }
