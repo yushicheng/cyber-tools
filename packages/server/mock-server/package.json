@@ -19,7 +19,9 @@
   "license": "ISC",
   "dependencies": {
     "@cyber-tools/cli-utils": "^2.4.1",
+    "chokidar": "^3.4.2",
     "commander": "^6.0.0",
+    "cors": "^2.8.5",
     "deep-extend": "^0.6.0",
     "es6-promisify": "^6.1.1",
     "execa": "^4.0.3",

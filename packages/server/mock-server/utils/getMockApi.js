@@ -7,6 +7,7 @@ module.exports = async () => {
     const matchPattern = path.resolve(process.cwd(), "./**/**.mock.js");
     const matchFiles = await promisify(glob)(matchPattern);
     const importTask = matchFiles.map((filePath) => {
+      delete require.cache[require.resolve(filePath)];
       return require(filePath);
     });
     const fileContent = await Promise.all(importTask);
