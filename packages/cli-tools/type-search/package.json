@@ -28,7 +28,7 @@
     "open": "^7.1.0"
   },
   "bin": {
-    "cyber-type": "index.js"
+    "cyber-type": "./.bin/index.js"
   },
   "gitHead": "c02bd739ce8927f1749191f23cc9fdb624a8b26c"
 }

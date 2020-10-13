@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 require("@cyber-tools/cli-utils/initial");
 require("module-alias").addAlias("@", __dirname);
 const createLibrary = require("@/scripts/create-library");

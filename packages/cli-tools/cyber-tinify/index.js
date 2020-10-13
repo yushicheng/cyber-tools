@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 const { program } = require("commander");
 require("@cyber-tools/cli-utils/initial");
 require("module-alias").addAlias("@", __dirname);

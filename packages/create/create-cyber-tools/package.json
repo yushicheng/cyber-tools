@@ -31,7 +31,7 @@
     "validate-npm-package-name": "^3.0.0"
   },
   "bin": {
-    "create-cyber-tools": "index.js"
+    "create-cyber-tools": "./.bin/index.js"
   },
   "gitHead": "c02bd739ce8927f1749191f23cc9fdb624a8b26c"
 }

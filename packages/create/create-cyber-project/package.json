@@ -29,7 +29,7 @@
     "prompt": "^1.0.0"
   },
   "bin": {
-    "create-cyber-project": "index.js"
+    "create-cyber-project": "./.bin/index.js"
   },
   "gitHead": "c02bd739ce8927f1749191f23cc9fdb624a8b26c"
 }

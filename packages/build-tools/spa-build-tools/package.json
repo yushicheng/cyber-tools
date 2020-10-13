@@ -59,7 +59,7 @@
     "webpack-merge": "^4.2.2"
   },
   "bin": {
-    "cyber-spa": "./index.js"
+    "cyber-spa": "./.bin/index.js"
   },
   "gitHead": "c02bd739ce8927f1749191f23cc9fdb624a8b26c"
 }

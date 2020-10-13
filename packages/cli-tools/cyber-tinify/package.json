@@ -36,7 +36,7 @@
     "tinify": "^1.6.0-beta.2"
   },
   "bin": {
-    "cyber-tinify": "./index.js"
+    "cyber-tinify": "./.bin/index.js"
   },
   "gitHead": "c02bd739ce8927f1749191f23cc9fdb624a8b26c"
 }

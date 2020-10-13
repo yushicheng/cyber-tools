@@ -28,6 +28,6 @@
     "module-alias": "^2.2.2",
     "moment": "^2.29.1"
   },
-  "bin": "index.js",
+  "bin": "./.bin/index.js",
   "gitHead": "c02bd739ce8927f1749191f23cc9fdb624a8b26c"
 }

@@ -35,6 +35,6 @@
     "prompt-promise": "^1.0.3",
     "simple-git": "^2.20.1"
   },
-  "bin": "index.js",
+  "bin": "./.bin/index.js",
   "gitHead": "c02bd739ce8927f1749191f23cc9fdb624a8b26c"
 }

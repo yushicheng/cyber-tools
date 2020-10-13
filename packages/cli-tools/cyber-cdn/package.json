@@ -41,6 +41,6 @@
     "prompt": "^1.0.0",
     "uuid": "^8.3.0"
   },
-  "bin": "./index.js",
+  "bin": "./.bin/index.js",
   "gitHead": "c02bd739ce8927f1749191f23cc9fdb624a8b26c"
 }
