@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/type-search",
-  "version": "2.3.3",
+  "version": "2.3.4",
   "description": "用于在DefinitelyTyped上搜索类型的命令行工具",
   "main": "index.js",
   "scripts": {
