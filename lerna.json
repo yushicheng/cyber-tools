@@ -15,7 +15,7 @@
         "--no-package-lock"
       ]
     },
-    "prepublish": "npm run clear:lock",
+    "preversion": "npm run clear:lock",
     "publish": {
       "registry": "https://registry.npmjs.org/"
     }

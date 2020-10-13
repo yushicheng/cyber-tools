@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/create-cyber-server",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "用于创建cyber系列微服务的命令行工具",
   "main": "index.js",
   "scripts": {
