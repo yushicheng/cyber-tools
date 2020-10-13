@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "cli",
     "node",
@@ -27,5 +30,6 @@
     "mocker-api": "^2.3.5",
     "module-alias": "^2.2.2"
   },
-  "bin": "./.bin/index.js"
+  "bin": "./.bin/index.js",
+  "gitHead": "79b8238ac74adb28ba1013178a97ea3dc7606319"
 }

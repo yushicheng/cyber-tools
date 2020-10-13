@@ -32,5 +32,5 @@
   "bin": {
     "create-cyber-library": "./.bin/index.js"
   },
-  "gitHead": "c02bd739ce8927f1749191f23cc9fdb624a8b26c"
+  "gitHead": "79b8238ac74adb28ba1013178a97ea3dc7606319"
 }
