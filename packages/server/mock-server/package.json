@@ -1,0 +1,31 @@
+{
+  "name": "@cyber-tools/mock-server",
+  "version": "1.0.0",
+  "description": "用于创建cyber系列工具的命令行工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "node",
+    "cyber",
+    "shicheng.yu"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cyber-tools/cli-utils": "^2.3.0",
+    "commander": "^6.0.0",
+    "deep-extend": "^0.6.0",
+    "es6-promisify": "^6.1.1",
+    "execa": "^4.0.3",
+    "express": "^4.17.1",
+    "glob": "^7.1.6",
+    "inquirer": "^7.3.3",
+    "jsonfile": "^6.0.1",
+    "mocker-api": "^2.3.5",
+    "module-alias": "^2.2.2"
+  },
+  "bin": "./.bin/index.js"
+}
