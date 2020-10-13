@@ -15,7 +15,7 @@
         "--no-package-lock"
       ]
     },
-    "prepublish": "echo 'prepublish==>'",
+    "prepublish": "npm run clear:lock",
     "publish": {
       "registry": "https://registry.npmjs.org/"
     }
