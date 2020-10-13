@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/cyber-git",
-  "version": "2.2.8",
+  "version": "2.3.0",
   "description": "生成标准化git提交注释的cli工具",
   "main": "index.js",
   "scripts": {
