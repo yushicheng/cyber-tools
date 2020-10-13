@@ -2,8 +2,9 @@
   "private": true,
   "name": "root",
   "scripts": {
-    "auto:install": "lerna exec --ignore \"@cyber-tools/{preset-*,*-utils,*-build-tools}\" -- echo \\$LERNA_PACKAGE_NAME",
-    "clear:lock": "lerna exec -- rm -rf package-lock.json"
+    "clear:lock": "lerna exec -- rm -rf package-lock.json",
+    "auto:install": "sh ./scripts/auto-install-global.sh",
+    "auto:uninstall": "sh ./scripts/auto-uninstall-global.sh"
   },
   "scripts-examples": {
     "复杂的过滤条件": "lerna exec --ignore \"@cyber-tools/{preset-*,*-utils,*-build-tools}\" -- echo \\$LERNA_PACKAGE_NAME",
