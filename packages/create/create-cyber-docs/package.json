@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/create-cyber-docs",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "用于创建cyber系列文档的命令行工具",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@cyber-tools/cli-utils": "^2.4.0",
+    "@cyber-tools/cli-utils": "^2.4.1",
     "colors": "^1.4.0",
     "commander": "^6.0.0",
     "download-git-repo": "^3.0.2",

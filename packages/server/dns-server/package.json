@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/dns-server",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "用于创建cyber系列工具的命令行工具",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@cyber-tools/cli-utils": "^2.4.0",
+    "@cyber-tools/cli-utils": "^2.4.1",
     "commander": "^6.0.0",
     "es6-promisify": "^6.1.1",
     "execa": "^4.0.3",
