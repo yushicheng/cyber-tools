@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/create-cyber-library",
-  "version": "1.4.0",
+  "version": "2.0.0",
   "description": "用于创建cyber库文件的命令行工具",
   "main": "index.js",
   "scripts": {

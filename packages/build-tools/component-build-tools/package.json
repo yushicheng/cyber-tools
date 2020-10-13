@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/component-build-tools",
-  "version": "3.3.0",
+  "version": "4.0.0",
   "description": "基于gulp,babel,typescript开发的组件库构筑工具",
   "main": "index.js",
   "scripts": {
