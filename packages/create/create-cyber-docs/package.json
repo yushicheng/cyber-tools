@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/create-cyber-docs",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "用于创建cyber系列文档的命令行工具",
   "main": "index.js",
   "scripts": {
