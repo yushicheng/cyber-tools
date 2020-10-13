@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/cyber-npm",
-  "version": "2.3.5",
+  "version": "2.4.0",
   "description": "用于创建cyber系列工具的命令行工具",
   "main": "index.js",
   "scripts": {
@@ -18,8 +18,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@cyber-tools/cli-utils": "^2.2.8",
-    "@cyber-tools/git-assess-utils": "^2.2.8",
+    "@cyber-tools/cli-utils": "^2.3.0",
+    "@cyber-tools/git-assess-utils": "^2.3.0",
     "commander": "^6.0.0",
     "es6-promisify": "^6.1.1",
     "execa": "^4.0.3",
