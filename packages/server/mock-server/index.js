@@ -13,7 +13,7 @@ program
   .action(require("@/actions/create-config-file"));
 
 program
-  .command("start")
+  .command("start", { isDefault: true })
   .description("启动mock服务")
   .action(require("@/actions/start-mock-server"));
 
