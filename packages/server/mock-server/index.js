@@ -17,7 +17,6 @@ program
   .description("启动mock服务")
   .action(require("@/actions/start-mock-server"));
 
-
 program.parse(process.argv);
 
 
