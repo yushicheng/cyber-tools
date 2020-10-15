@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/mock-server",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "用于创建cyber系列工具的命令行工具",
   "main": "index.js",
   "scripts": {
