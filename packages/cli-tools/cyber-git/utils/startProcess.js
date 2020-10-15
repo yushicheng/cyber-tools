@@ -3,8 +3,9 @@ const isInit = require("@cyber-tools/git-assess-utils/isInit");
 const isChange = require("@cyber-tools/git-assess-utils/isChange");
 const hasPackageJson = require("@cyber-tools/git-assess-utils/hasPackageJson");
 
-const confirmInitial = require("@/scripts/confirm/confirmInitial");
 const firstCommit = require("@/scripts/first-commit");
+const confirmInitial = require("@/scripts/confirm/confirmInitial");
+
 
 module.exports = async () => {
   if (!await hasPackageJson()) {
