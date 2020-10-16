@@ -3,8 +3,9 @@ const chokidar = require("chokidar");
 const express = require("express");
 const apiMocker = require("mocker-api");
 const getMockApi = require("@/utils/getMockApi");
-const getServerConfig = require("@/utils/getServerConfig");
 
+const getServerConfig = require("@/utils/getServerConfig");
+const beforeServerStart = require("@/utils/beforeServerStart");
 
 module.exports = async () => {
   let server;
@@ -13,6 +14,7 @@ module.exports = async () => {
     const { port, ...otherMockApi } = await getServerConfig();
     const app = express();
     app.use(cors());
+    await beforeServerStart(app);
     apiMocker(app, { ...mockApi, ...otherMockApi });
     return app.listen(port, () => {
       console.log("mock服务已启动", "监听端口:", port);
