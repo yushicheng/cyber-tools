@@ -7,8 +7,11 @@ const currentPreset = require("@cyber-tools/preset-git-comment-cyber");
 const selectSingleType = require("@/scripts/select/selectSingleType");
 const confirmPushRemote = require("@/scripts/confirm/confirmPushRemote");
 
+const startProcess = require("@/utils/startProcess");
+
 
 module.exports = async () => {
+  await startProcess();
   try {
     if (!await hasIgnoreFile()) {
       return toast.warn("该项目下不存在.gitignore文件");
