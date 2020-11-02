@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/spa-build-tools",
-  "version": "8.1.1",
+  "version": "8.2.0",
   "description": "单页应用核心构建组件",
   "main": "index.js",
   "scripts": {
