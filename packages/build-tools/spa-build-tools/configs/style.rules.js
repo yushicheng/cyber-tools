@@ -112,7 +112,7 @@ module.exports = ({ loaderIgnore }) => ([{
     }
   }, {
     loader: require.resolve("css-loader"),
-    options: { modules: true }
+    options: { modules: false }
   }, {
     loader: require.resolve("postcss-loader"),
     options: postcssNodeModuleConfig
