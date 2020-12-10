@@ -1,3 +1,4 @@
+const path = require("path");
 const toast = require("@cyber-tools/cli-utils/toast");
 const copyFile = require("@cyber-tools/cli-utils/copyFile");
 

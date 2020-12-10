@@ -3,7 +3,7 @@ const dgram = require("dgram");
 const server = dgram.createSocket("udp4");
 
 const clearDNS = require("@/scripts/clearDNS");
-const initialDNS = require("@/scripts/initialDNS");
+// const initialDNS = require("@/scripts/initialDNS");
 const getDNSRuntimeConfig = require("@/utils/getDNSRuntimeConfig");
 
 const forward = require("@/utils/dns-tools/forward");
@@ -12,7 +12,7 @@ const parseHost = require("@/utils/dns-tools/parseHost");
 
 
 module.exports = async (configFilePath) => {
-  await initialDNS();
+  // await initialDNS();
   const { hosts, fallbackServer } = await getDNSRuntimeConfig(configFilePath);
 
   server.on("message", (msg, rinfo) => {
