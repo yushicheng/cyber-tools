@@ -1,6 +1,6 @@
 
 module.exports = [{
-  name: "babel-library",
+  name: "es6-babel-library",
   value: {
     devDependencies: {
       "@cyber-tools/spa-build-tools": "*"
@@ -8,20 +8,11 @@ module.exports = [{
     remote: "https://github.com/cyber-scaffold/es6-babel-library"
   }
 }, {
-  name: "typescript-library",
+  name: "es6-react-library",
   value: {
     devDependencies: {
       "@cyber-tools/spa-build-tools": "*"
     },
-    remote: "https://github.com/cyber-scaffold/ts-library"
-  }
-}, {
-  name: "component-library",
-  value: {
-    devDependencies: {
-      "@cyber-tools/spa-build-tools": "*",
-      "@cyber-tools/component-build-tools": "*"
-    },
-    remote: "https://github.com/cyber-scaffold/typescript-component-library"
+    remote: "https://github.com/cyber-scaffold/es6-react-library"
   }
 }];
