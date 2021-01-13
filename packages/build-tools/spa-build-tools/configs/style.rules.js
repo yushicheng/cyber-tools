@@ -61,7 +61,11 @@ module.exports = ({ loaderIgnore }) => ([{
     options: postcssUserConfig
   }, {
     loader: require.resolve("less-loader"),
-    options: {}
+    options: {
+      lessOptions: {
+        javascriptEnabled: true
+      }
+    }
   }]
 }, {
   test: /\.less$/,
@@ -81,7 +85,11 @@ module.exports = ({ loaderIgnore }) => ([{
     options: postcssNodeModuleConfig
   }, {
     loader: require.resolve("less-loader"),
-    options: {}
+    options: {
+      lessOptions: {
+        javascriptEnabled: true
+      }
+    }
   }]
 }, {
   exclude: loaderIgnore,
