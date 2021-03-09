@@ -19,6 +19,12 @@ module.exports = async () => {
         name: "electron_mirror",
         value: "https://npm.taobao.org/mirrors/electron/"
       }
+    },{
+      name:"canvas_binary镜像",
+      value:{
+        name:"canvas_binary_host_mirror",
+        value:"https://npm.taobao.org/mirrors/node-canvas-prebuilt/"
+      }
     }]
   });
   const pairs = config.map(({ name, value }) => [name, value]);

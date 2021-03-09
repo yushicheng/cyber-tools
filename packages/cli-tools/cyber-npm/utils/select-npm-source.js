@@ -11,13 +11,17 @@ module.exports = async () => {
       value: {
         registry: "https://registry.npmjs.org/"
       }
-    }, {
-      name: "crgt.npm镜像源",
-      value: {
-        "@crgt:registry": "http://npm.crgt.xyz/",
-        "registry": "http://npm.crgt.xyz/"
-      }
     }]
   });
   return source;
 };
+
+/**
+  {
+    name: "crgt.npm镜像源",
+    value: {
+      "@crgt:registry": "http://npm.crgt.xyz/",
+      "registry": "http://npm.crgt.xyz/"
+    }
+  }
+ * **/
