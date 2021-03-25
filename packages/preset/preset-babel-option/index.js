@@ -9,11 +9,6 @@ module.exports = {
     [require.resolve("@babel/plugin-proposal-decorators"), { legacy: true }],
     //当装饰器配置为legacy:true时需要松散模式
     [require.resolve("@babel/plugin-proposal-class-properties"), { loose: true }],
-    [require.resolve("@babel/plugin-transform-runtime")],
-    [require.resolve("babel-plugin-import"), {
-      libraryName: "antd-mobile",
-      libraryDirectory: "es",
-      style: true
-    }]
+    [require.resolve("@babel/plugin-transform-runtime")]
   ]
 };
