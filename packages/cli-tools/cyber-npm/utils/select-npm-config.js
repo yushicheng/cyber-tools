@@ -25,6 +25,12 @@ module.exports = async () => {
         name:"canvas_binary_host_mirror",
         value:"https://npm.taobao.org/mirrors/node-canvas-prebuilt/"
       }
+    },{
+      name:"phantomjs_镜像源",
+      value:{
+        name:"phantomjs_cdnurl",
+        value:"https://npm.taobao.org/dist/phantomjs/"
+      }
     }]
   });
   const pairs = config.map(({ name, value }) => [name, value]);
