@@ -1,6 +1,6 @@
 {
   "name": "@cyber-tools/create-cyber-server",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "用于创建cyber系列微服务的命令行工具",
   "main": "index.js",
   "scripts": {
@@ -21,13 +21,13 @@
   "dependencies": {
     "@cyber-tools/cli-utils": "^2.4.1",
     "colors": "1.4.0",
-    "prompt": "1.2.2",
-    "winston": "3.6.0",
     "download-git-repo": "^3.0.2",
     "es6-promisify": "^6.1.1",
     "inquirer": "^7.3.3",
     "jsonfile": "^6.0.1",
-    "module-alias": "^2.2.2"
+    "module-alias": "^2.2.2",
+    "prompt": "1.2.2",
+    "winston": "3.6.0"
   },
   "bin": {
     "create-cyber-server": "./.bin/index.js"
