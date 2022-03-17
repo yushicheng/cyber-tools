@@ -25,11 +25,15 @@
     "es6-promisify": "^6.1.1",
     "inquirer": "^7.3.3",
     "jsonfile": "^6.0.1",
-    "module-alias": "^2.2.2",
-    "prompt": "^1.0.0"
+    "module-alias": "^2.2.2"
   },
   "bin": {
     "create-cyber-docs": "./.bin/index.js"
   },
-  "gitHead": "79b8238ac74adb28ba1013178a97ea3dc7606319"
+  "gitHead": "79b8238ac74adb28ba1013178a97ea3dc7606319",
+  "devDependencies": {
+    "colors": "1.4.0",
+    "prompt": "1.2.2",
+    "winston": "3.6.0"
+  }
 }

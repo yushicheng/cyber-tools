@@ -1,6 +1,6 @@
 const colors = require("colors");
 const prompt = require("prompt");
-const { promisify } = require("es6-promisify");
+const {promisify} = require("es6-promisify");
 
 
 module.exports = async () => {
