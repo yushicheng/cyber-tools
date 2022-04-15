@@ -5,4 +5,9 @@ module.exports = [{
   value: {
     remote: "https://github.com/cyber-scaffold/easy-koa-project"
   }
+},{
+  name:"easy-egg-microservice",
+  value: {
+    remote: "https://github.com/cyber-scaffold/easy-egg-microservice"
+  }
 }];
