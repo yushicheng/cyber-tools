@@ -1,6 +1,11 @@
 
 
 module.exports = [{
+  name: "omni-typescript-project",
+  value: {
+    remote: "https://github.com/cyber-scaffold/typescript-bootstrap-project"
+  }
+}, {
   name: "electron-chimera-project",
   value: {
     remote: "https://github.com/cyber-scaffold/electron-chimera-project"
