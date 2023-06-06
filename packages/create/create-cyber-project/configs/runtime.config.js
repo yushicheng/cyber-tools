@@ -1,33 +1,18 @@
 
 
 module.exports = [{
-  name: "omni-typescript-project",
+  name: "基本的typescript项目",
   value: {
     remote: "https://github.com/cyber-scaffold/typescript-bootstrap-project"
   }
 }, {
-  name: "omni-electron-project",
+  name: "基于typescript和express的没有ssr的spa全栈项目",
+  value: {
+    remote: "https://github.com/cyber-scaffold/server-spa-client-project"
+  }
+}, {
+  name: "基于typescript的electron项目",
   value: {
     remote: "https://github.com/cyber-scaffold/omni-electron-project"
-  }
-}, {
-  name: "electron-chimera-project",
-  value: {
-    remote: "https://github.com/cyber-scaffold/electron-chimera-project"
-  }
-}, {
-  name: "electron-umi-project",
-  value: {
-    remote: "https://github.com/cyber-scaffold/electron-umi-project"
-  }
-}, {
-  name: "umi-version3-project",
-  value: {
-    remote: "https://github.com/cyber-scaffold/umi-version3-project"
-  }
-}, {
-  name: "lerna-complex-project",
-  value: {
-    remote: "https://github.com/cyber-scaffold/lerna-complex-project"
   }
 }];
