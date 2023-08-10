@@ -30,5 +30,5 @@
     "winston": "3.6.0"
   },
   "bin": "./.bin/index.js",
-  "gitHead": "bdb92f6a8bb8b553d54fa02d1ab1b84e01f62f6f"
+  "gitHead": "2b1ada925a99a2ca942dac5273f08ae5b7a72c0e"
 }
