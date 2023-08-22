@@ -1,12 +1,7 @@
 
 module.exports = [{
-  name: "es6-babel-library",
+  name: "基于typescript编译的库脚手架",
   value: {
-    remote: "https://github.com/cyber-scaffold/es6-babel-library"
-  }
-}, {
-  name: "es6-react-library",
-  value: {
-    remote: "https://github.com/cyber-scaffold/es6-react-library"
+    remote: "https://github.com/cyber-scaffold/pure-typescript-library"
   }
 }];
