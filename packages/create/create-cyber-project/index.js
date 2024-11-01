@@ -13,5 +13,5 @@ const changeJsonFile = require("@/utils/changeJsonFile");
     await changeJsonFile({ folderName: packageName, projectName: packageName, devDependencies });
   } catch (error) {
     throw error;
-  }
+  };
 })();
