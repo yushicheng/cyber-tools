@@ -6,6 +6,11 @@ module.exports = [{
     remote: "https://github.com/cyber-scaffold/typescript-bootstrap-project"
   }
 }, {
+  name: "基于MVC和控制反转的全栈项目",
+  value: {
+    remote: "https://github.com/cyber-scaffold/mvc-fullstack-scaffold"
+  }
+}, {
   name: "基于typescript和express的纯后端项目",
   value: {
     remote: "https://github.com/cyber-scaffold/pure-typescript-server-project"
